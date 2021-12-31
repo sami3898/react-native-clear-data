@@ -17,6 +17,7 @@ const ClearData = NativeModules.ClearData
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return ClearData.multiply(a, b);
+// Calling Native module
+export function clearAppData() {
+  return ClearData.clearAppData();
 }
