@@ -22,7 +22,7 @@ const onClearData = () => {
 ## Methods
 
 ### clearAppData()
-Methods will remove the app data
+Method will remove the app data
 
 
 ## Contributing
