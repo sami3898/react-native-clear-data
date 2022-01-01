@@ -19,6 +19,12 @@ const onClearData = () => {
 };
 ```
 
+## Methods
+
+### clearAppData()
+Methods will remove the app data
+
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
