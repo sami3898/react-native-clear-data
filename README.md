@@ -1,5 +1,6 @@
 # react-native-clear-data
-Sometimes the clearing data is as important as clearing your room. This simpler React Native library allows you to clear your app data.
+Sometimes the clearing data is as important as clearing your room. 
+This simpler React Native library allows you to clear your app data.
 
 ## Installation
 
