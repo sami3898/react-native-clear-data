@@ -1,8 +1,12 @@
+import Foundation
 @objc(ClearData)
 class ClearData: NSObject {
 
-    @objc(multiply:withB:withResolver:withRejecter:)
-    func multiply(a: Float, b: Float, resolve:RCTPromiseResolveBlock,reject:RCTPromiseRejectBlock) -> Void {
-        resolve(a*b)
+    @objc
+    func clearAppData() -> Void {
+        if let appDomain = Bundle.main.bundleIdentifier {
+            UserDefaults.standard.removePersistentDomain(forName: appDomain)
+        }
+        NSLog("Print")
     }
 }

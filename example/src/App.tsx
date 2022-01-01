@@ -14,7 +14,7 @@ export default function App() {
   const alert = ()  => {
     Alert.alert(
       'Clear Data',
-      'Clear Data will kill your application\nDo you want to Clear Data?',
+      'Clear Data might kill your application\nDo you want to Clear Data?',
       [
         {
           text: 'Yes',
