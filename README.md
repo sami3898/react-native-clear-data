@@ -10,11 +10,13 @@ npm install react-native-clear-data
 ## Usage
 
 ```js
-import { multiply } from "react-native-clear-data";
+import { clearAppData } from "react-native-clear-data";
 
 // ...
 
-const result = await multiply(3, 7);
+const onClearData = () => {
+  clearAppData();
+};
 ```
 
 ## Contributing
