@@ -1,6 +1,5 @@
 # react-native-clear-data
-
-This is react native library to delete user's app data or cache
+Sometimes the clearing data is as important as clearing your room. This simpler React Native library allows you to clear your app data.
 
 ## Installation
 
